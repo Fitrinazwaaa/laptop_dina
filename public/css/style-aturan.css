@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table-wrapper1 {
+    margin-top: 10px;
+    width: 60%;
+    overflow-x: auto;
+}
+.table-wrapper2 {
+    margin-top: 10px;
+    width: 60%;
+    overflow-x: auto;
+}
+.table-wrapper3 {
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    border: 2px solid #007bff; /* Warna border untuk tabel */
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #007bff; /* Memberikan warna border pada sel tabel */
+}
+
+table tbody tr:hover {
+        background-color: #edf7ff;
+}
+
+
+th {
+    background-color: #007bff;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border: none;
+}
+
+
+.scroll-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Menempatkan dua kolom */
+    gap: 20px;
+}
+
+
+.scrollable-table1 {
+    height: 500px; /* Mengatur tinggi maksimal tabel */
+    overflow-y: auto;  /* Menambahkan scrollbar vertikal jika konten melebihi tinggi maksimal */
+    width: 100%; /* Membuat kedua tabel berbagi lebar yang sama */
+}
+.scrollable-table2 {
+    height: 500px; /* Mengatur tinggi maksimal tabel */
+    overflow-y: auto;  /* Menambahkan scrollbar vertikal jika konten melebihi tinggi maksimal */
+    width: 100%; /* Membuat kedua tabel berbagi lebar yang sama */
+}
