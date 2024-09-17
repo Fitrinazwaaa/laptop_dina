@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEGURAN LISAN</title>
+    <title>PERINGATAN TERTULIS DISAMPAIKAN KEPADA ORANG TUA</title>
     <link rel="stylesheet" href="{{ asset('css/style-teguran.css') }}">
 </head>
 <body>
     
-<h2 class="text-center">TEGURAN LISAN</h2>
-<h4 class="text-center">Poin >= 12</h4>
+<h2 class="text-center">PERINGATAN TERTULIS DISAMPAIKAN KEPADA ORANG TUA</h2>
+<h4 class="text-center">Poin >= 22</h4>
     <div class="card pink">
         <div class="left">
             <h3>Nazla Agustina</h3>
@@ -19,7 +19,7 @@
         <div class="right">
             <p>12 RPL 2</p>
             <br>
-            <p>Poin 13</p>
+            <p>Poin 22</p>
         </div>
     </div>
 
@@ -32,7 +32,7 @@
         <div class="right">
             <p>10 TKJT 1</p>
             <br>
-            <p>Poin 17</p>
+            <p>Poin 39</p>
         </div>
     </div>
 
@@ -45,7 +45,7 @@
         <div class="right">
             <p>12 RPL 2</p>
             <br>
-            <p>Poin 15</p>
+            <p>Poin 47</p>
         </div>
     </div>
 

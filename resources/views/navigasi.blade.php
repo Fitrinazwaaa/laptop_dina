@@ -69,6 +69,27 @@
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="{{ route('poin12') }}">Teguran Lisan</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin18') }}">Peringatan Tertulis</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin22') }}">Peringatan Tertulis Disampaikan Kepada Orang Tua</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin50') }}">Pemanggilan Orang Tua</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin75') }}">Siswa dan orang tua membuat surat perjanjian bermaterai</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin100') }}">Siswa di skors selama 3 hari</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin135') }}">Siswa di skors selama 6 hari</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin200') }}">Rekomendasi Kesiswaan</a>
+                    </li>
                     
                   </ul>
                 </div>

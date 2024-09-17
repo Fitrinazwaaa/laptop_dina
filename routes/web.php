@@ -59,6 +59,34 @@ Route::get('/poin12', function () {
     return view('teguran');
 })->name('poin12');
 
+Route::get('/poin18', function () {
+    return view('tertulis');
+})->name('poin18');
+
+Route::get('/poin22', function () {
+    return view('surat-ortu');
+})->name('poin22');
+
+Route::get('/poin50', function () {
+    return view('panggilan');
+})->name('poin50');
+
+Route::get('/poin75', function () {
+    return view('materai');
+})->name('poin75');
+
+Route::get('/poin100', function () {
+    return view('skors-pertama');
+})->name('poin100');
+
+Route::get('/poin135', function () {
+    return view('skors-kedua');
+})->name('poin135');
+
+Route::get('/poin200', function () {
+    return view('rekomen');
+})->name('poin200');
+
 Route::get('/admin/settings', [AdminController::class, 'showSettings']);
 Route::post('/admin/add-user', [AdminController::class, 'pengaturan'])->name('pengaturan');
 
