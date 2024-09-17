@@ -55,6 +55,10 @@ Route::get('/peringatan', function () {
     return view('peringatan');
 })->name('peringatan');
 
+Route::get('/poin12', function () {
+    return view('teguran');
+})->name('poin12');
+
 Route::get('/admin/settings', [AdminController::class, 'showSettings']);
 Route::post('/admin/add-user', [AdminController::class, 'pengaturan'])->name('pengaturan');
 

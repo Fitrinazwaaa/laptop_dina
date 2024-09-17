@@ -66,6 +66,9 @@
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="{{ route('peringatan') }}">Formulir Peringatan</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{{ route('poin12') }}">Teguran Lisan</a>
+                    </li>
                     
                   </ul>
                 </div>
